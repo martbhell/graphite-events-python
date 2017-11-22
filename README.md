@@ -9,6 +9,10 @@ python2
 
 pip install urllib[secure]
 
+We verify certificates, this depends on the urllib3[secure] libraries.
+
+Not tested with python3
+
 Usage
 ------------
 <pre>

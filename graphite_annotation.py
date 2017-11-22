@@ -2,11 +2,13 @@
 
 """ send events to graphite's event store """
 
-# requirements:
+# Requirements:
 # pip install urllib3[secure]
 # python2
 
-# events documentation = http://graphite.readthedocs.io/en/latest/events.html
+# We verify certificates, this depends on the urllib3[secure] libraries.
+
+# Graphite Events documentation = http://graphite.readthedocs.io/en/latest/events.html
 
 # usage:
 # python graphite_annotation.py --what "Title" --tag "tag" --data "D" --url https://example.com

@@ -22,8 +22,8 @@ PARSER.add_argument('--what', dest='what', required=True,
                     help='What - Title')
 PARSER.add_argument('--tag', dest='tag', required=True,
                     help='tag - only one')
-PARSER.add_argument('--data', dest='data', required=True,
-                    help='description')
+PARSER.add_argument('--data', dest='data', default="",
+                    help='more detailed and longer description')
 PARSER.add_argument('--url', dest='url', required=True,
                     help='url, for example https://graphite.example.com')
 PARSER.add_argument('--uri', dest='uri', default="/events/",
